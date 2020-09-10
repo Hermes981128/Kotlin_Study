@@ -5,6 +5,7 @@ fun main(args: Array<String>) {
 //    条件控制
 //    If表达式
     print("请输入0~10之间的数:")
+//  readLine输入可能为空 所以转换字符串到数字类型会报错 需要加一个？
     var input = Integer.valueOf(readLine())
     if ((input as Int) > 5) {
         println("你输入的数字大于5")
