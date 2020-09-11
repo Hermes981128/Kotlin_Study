@@ -9,4 +9,5 @@ fun main(args: Array<String>) {
     for (x in 0..99){    img.setRGB(x,0,0xff0000)
     }
     ImageIO.write(img,"bmp", File("test.bmp"))
+
 }
